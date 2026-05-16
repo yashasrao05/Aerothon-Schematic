@@ -76,7 +76,7 @@
 		)
 		(symbol "3DR_Telemetry_1_1"
 			(pin power_in line
-				(at 1.27 7.62 90)
+				(at 1.27 10.16 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -94,7 +94,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -7.62 270)
+				(at 1.27 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -112,7 +112,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 3.81 0)
+				(at 16.51 3.81 180)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin output line
-				(at 13.97 0 0)
+				(at 16.51 0 180)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 0 180)
+				(at -13.97 0 0)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin output line
-				(at -11.43 3.81 180)
+				(at -13.97 3.81 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -271,7 +271,7 @@
 		)
 		(symbol "Arducam_1_1"
 			(pin power_in line
-				(at -15.24 -13.97 270)
+				(at -13.97 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -289,7 +289,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -11.43 -13.97 270)
+				(at -10.16 -16.51 90)
 				(length 2.54)
 				(name "CAM_D0_N"
 					(effects
@@ -307,7 +307,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -7.62 -13.97 270)
+				(at -6.35 -16.51 90)
 				(length 2.54)
 				(name "CAM_D0_P"
 					(effects
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -13.97 270)
+				(at -2.54 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 -13.97 270)
+				(at 3.81 -16.51 90)
 				(length 2.54)
 				(name "CAM_D1_N"
 					(effects
@@ -361,7 +361,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 -13.97 270)
+				(at 7.62 -16.51 90)
 				(length 2.54)
 				(name "CAM_D1_P"
 					(effects
@@ -379,7 +379,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -13.97 270)
+				(at 11.43 -16.51 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -397,7 +397,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 -13.97 270)
+				(at 15.24 -16.51 90)
 				(length 2.54)
 				(name "CAM_CK_N"
 					(effects
@@ -415,7 +415,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.97 13.97 90)
+				(at -13.97 16.51 270)
 				(length 2.54)
 				(name "CAM_CK_P"
 					(effects
@@ -433,7 +433,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 13.97 90)
+				(at -10.16 16.51 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -451,7 +451,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 6.35 13.97 90)
+				(at -6.35 16.51 270)
 				(length 2.54)
 				(name "CAM_D2_N"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 2.54 13.97 90)
+				(at -2.54 16.51 270)
 				(length 2.54)
 				(name "CAM_D2_P"
 					(effects
@@ -487,7 +487,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 13.97 90)
+				(at 2.54 16.51 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -505,7 +505,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -6.35 13.97 90)
+				(at 6.35 16.51 270)
 				(length 2.54)
 				(name "CAM_D3_N"
 					(effects
@@ -523,7 +523,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 13.97 90)
+				(at 10.16 16.51 270)
 				(length 2.54)
 				(name "CAM_D3_P"
 					(effects
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 13.97 90)
+				(at 13.97 16.51 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -559,7 +559,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 6.35 0)
+				(at 22.86 5.08 180)
 				(length 2.54)
 				(name "CAM_IO0"
 					(effects
@@ -577,7 +577,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 2.54 0)
+				(at 22.86 1.27 180)
 				(length 2.54)
 				(name "CAM_IO1"
 					(effects
@@ -595,7 +595,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -1.27 0)
+				(at 22.86 -2.54 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -613,7 +613,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 6.35 180)
+				(at -20.32 6.35 0)
 				(length 2.54)
 				(name "CAM_SCL"
 					(effects
@@ -631,7 +631,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 2.54 180)
+				(at -20.32 2.54 0)
 				(length 2.54)
 				(name "CAM_SDA"
 					(effects
@@ -649,7 +649,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -1.27 180)
+				(at -20.32 -1.27 0)
 				(length 2.54)
 				(name "CAM_3v3"
 					(effects
@@ -823,7 +823,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -17.78 270)
+				(at -3.81 -21.59 90)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -841,7 +841,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -17.78 270)
+				(at 3.81 -21.59 90)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -895,7 +895,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 19.05 270)
+				(at 19.05 22.86 270)
 				(length 2.54)
 				(name "S4"
 					(effects
@@ -913,7 +913,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 19.05 270)
+				(at 15.24 22.86 270)
 				(length 2.54)
 				(name "S3"
 					(effects
@@ -931,7 +931,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 19.05 270)
+				(at 11.43 22.86 270)
 				(length 2.54)
 				(name "S2"
 					(effects
@@ -949,7 +949,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 19.05 270)
+				(at 7.62 22.86 270)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -967,7 +967,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 19.05 270)
+				(at 3.81 22.86 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -985,7 +985,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 19.05 270)
+				(at 0 22.86 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1003,7 +1003,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 19.05 270)
+				(at -3.81 22.86 270)
 				(length 2.54)
 				(name "CRT"
 					(effects
@@ -1021,7 +1021,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 19.05 270)
+				(at -8.89 22.86 270)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -1039,7 +1039,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 19.05 270)
+				(at -13.97 22.86 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1057,7 +1057,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 19.05 270)
+				(at -17.78 22.86 270)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -1162,16 +1162,16 @@
 		)
 		(symbol "FPV_1_1"
 			(pin power_in line
-				(at -7.62 -6.35 270)
+				(at -7.62 -8.89 90)
 				(length 2.54)
-				(name "1"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5V"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1180,16 +1180,34 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 -6.35 270)
+				(at -3.81 -8.89 90)
 				(length 2.54)
-				(name "2"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -8.89 90)
+				(length 2.54)
+				(name "Vid_Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1198,37 +1216,19 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -6.35 270)
+				(at 8.89 -8.89 90)
 				(length 2.54)
-				(name "4"
+				(name "OSD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "OSD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 5.08 -6.35 270)
-				(length 2.54)
-				(name "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Vid_Out"
-					(effects
-						(font
-							(size 0.508 0.508)
 						)
 					)
 				)
@@ -1328,7 +1328,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 8.89 180)
+				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "Cell_1"
 					(effects
@@ -1346,7 +1346,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 5.08 180)
+				(at -13.97 5.08 0)
 				(length 2.54)
 				(name "Cell_2"
 					(effects
@@ -1364,7 +1364,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 1.27 180)
+				(at -13.97 1.27 0)
 				(length 2.54)
 				(name "Cell_3"
 					(effects
@@ -1382,7 +1382,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -2.54 180)
+				(at -13.97 -2.54 0)
 				(length 2.54)
 				(name "Cell_4"
 					(effects
@@ -1400,7 +1400,7 @@
 				)
 			)
 			(pin passive line
-				(at -11.43 -6.35 180)
+				(at -13.97 -6.35 0)
 				(length 2.54)
 				(name "Cell_5"
 					(effects
@@ -1410,6 +1410,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -13.97 -10.16 0)
+				(length 2.54)
+				(name "Full_Pack"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1428,24 +1446,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -10.16 180)
-				(length 2.54)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Full_Pack"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1529,8 +1529,44 @@
 			)
 		)
 		(symbol "Matek_1_1"
+			(pin power_in line
+				(at -15.24 19.05 0)
+				(length 2.54)
+				(name "BAT+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
-				(at -12.7 -8.89 0)
+				(at -15.24 -8.89 0)
 				(length 2.54)
 				(name "5V_OUT"
 					(effects
@@ -1548,7 +1584,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 -13.97 0)
+				(at -15.24 -13.97 0)
 				(length 2.54)
 				(name "10V_OUT"
 					(effects
@@ -1565,8 +1601,152 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 16.51 19.05 180)
+				(length 2.54)
+				(name "ESC1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 13.97 180)
+				(length 2.54)
+				(name "ESC1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 8.89 180)
+				(length 2.54)
+				(name "ESC2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 3.81 180)
+				(length 2.54)
+				(name "ESC2-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -2.54 180)
+				(length 2.54)
+				(name "ESC3+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -7.62 180)
+				(length 2.54)
+				(name "ESC3-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -12.7 180)
+				(length 2.54)
+				(name "ESC4+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 16.51 -17.78 180)
+				(length 2.54)
+				(name "ESC4-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at -12.7 -19.05 0)
+				(at -15.24 -19.05 0)
 				(length 2.54)
 				(name "CURR"
 					(effects
@@ -1576,186 +1756,6 @@
 					)
 				)
 				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 19.05 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "BAT+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 19.05 180)
-				(length 2.54)
-				(name "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 15.24 180)
-				(length 2.54)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC1-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 11.43 180)
-				(length 2.54)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC2+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 6.35 180)
-				(length 2.54)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC2-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 1.27 180)
-				(length 2.54)
-				(name "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC3+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -3.81 180)
-				(length 2.54)
-				(name "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC3-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -8.89 180)
-				(length 2.54)
-				(name "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC4+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -13.97 180)
-				(length 2.54)
-				(name "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "ESC4-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1840,7 +1840,7 @@
 		)
 		(symbol "Motors_1_1"
 			(pin power_in line
-				(at -5.08 0 180)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -1858,7 +1858,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 5.08 270)
+				(at 0 8.89 270)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -1876,7 +1876,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 270)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -1969,7 +1969,7 @@
 			)
 			(rectangle
 				(start -8.89 -5.08)
-				(end -2.54 -7.62)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -2048,17 +2048,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -6.35 0)
+			(pin power_in line
+				(at -11.43 -6.35 0)
 				(length 2.54)
-				(name "USBC_(Data)"
+				(name "USBC_(Power)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "10"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2066,17 +2066,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -11.43 -6.35 0)
+			(pin input line
+				(at 7.62 -6.35 180)
 				(length 2.54)
-				(name "1"
+				(name "USBC_(Data)"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "USBC_(Power)"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
