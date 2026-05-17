@@ -636,6 +636,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -648,7 +656,7 @@
         "uuid": "5c69f783-11c5-4401-9233-9a1d77a80e45"
       }
     ],
-    "used_designators": "O1",
+    "used_designators": "U6",
     "variants": []
   },
   "sheets": [
